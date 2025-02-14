@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1f2937;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+
+  
+}
+
+.mainHeader{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #1f2937;
+
+}
+
+.headerLogo img{
+    width: 60px;
+    transform: scale(1.5);
+
+}
+
+
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-right: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.employeeImage img{
+    width: 200px;
+    height: auto;
+    border-radius: 2px;
+   
+
+}
+.employeeImage{
+    padding: 50px;
+    background-color: #1f2937;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 150px 20px 20px;
+    background-color: #1f2937;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mainText{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.secondaryText{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 30px;
+}
+
+.firstContainer{
+   display: flex;
+   justify-content: space-between;
+   background-color: #1f2937;
+}
+
+.signUpButton{
+    background-color: #3882F6;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    color: #E5E7EB;
+    font-weight: 900;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+
+
+}
+
+.boxContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted min width for better fitting */
+    gap: 30px; /* Reduced gap to allow better spacing */
+    width: 100%; /* Ensure the container takes up the full width */
+    padding: 20pxpx; /* Optional padding for container */
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    
+
+}
+
+.box-content {
+    width: 100%; 
+    height: 200px;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: #3882F6;
+    border-style: solid;
+    
+}
+
+.box-text {
+    margin-top: 10px; 
+    text-align: center;
+}
+
+.infoDiv {
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+    
+    
+}
+
+.quoteContainer{
+    background-color: #E6E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.quoteText{
+    padding: 70px 70px 2px 70px;
+}
+.authorText{
+    background-color: #E6E7EB;
+
+   
+}
+
+h3{
+    margin: 0px;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-bottom: 80px;
+}
+
